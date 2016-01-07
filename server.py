@@ -1,5 +1,15 @@
-#!/usr/bin/python
-# UDP Heartbeat Server
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+#---------------------------------------------------------------------------
+#
+#   Author:     davidlu
+#   Filename:   server.py
+#   Version:    0.1
+#   Desc:       UDP Heartbeat Server
+#   Usage:      ./server.py [--port] N [--packetloss] N [-h/--help]
+#
+#---------------------------------------------------------------------------
+
 import random
 from socket import *
 import datetime as dt

@@ -1,5 +1,16 @@
-#!/usr/bin/python
-# UDP Heartbeat Client
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+#---------------------------------------------------------------------------
+#
+#   Author:     davidlu
+#   Filename:   client.py
+#   Version:    0.1
+#   Desc:       UDP Heartbeat Client
+#   Usage:      ./client.py --serverip ip --serverport port [--vif vif_interface]"
+#               e.g. ./client.py --serverip 10.10.10.2 --serverport 12000 --vif vif2.0
+#
+#---------------------------------------------------------------------------
+
 from socket import *
 import datetime as dt
 import time
